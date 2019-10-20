@@ -1,0 +1,182 @@
+SETUP.
+{'expID': 'MyResNet', 'output_dir': './output/', 'seed': 321, 'workers': 4, 'disable_cuda': False, 'dataset_dir': './datasets/', 'data_augmentation': False, 'val_size': 0.1, 'model': 'MyResNet', 'batch_size': 128, 'epochs': 40, 'lr': 0.001, 'wd': 1e-06, 'scheduler_gamma': 0.95, 'log_interval': 400}
+CUDA is on!
+
+LOADING DATASET.
+Dataset: 60000 samples (T: 54000 / V: 6000)
+
+LOADING MODEL.
+Model: MyResNet (2.78M params)
+
+TRAINING
+[Epoch 01 / Iter: 0400]: TRAIN loss: 0.427
+[Epoch 01 / Iter: 0422]: EVAL. loss: 0.321
+[Epoch 01 / Iter: 0422]: EVAL. acc.: 0.878
+ETA: 0:40:11
+Saving at checkpoint...
+[Epoch 02 / Iter: 0822]: TRAIN loss: 0.255
+[Epoch 02 / Iter: 0844]: EVAL. loss: 0.271
+[Epoch 02 / Iter: 0844]: EVAL. acc.: 0.904
+ETA: 0:38:35
+Saving at checkpoint...
+[Epoch 03 / Iter: 1244]: TRAIN loss: 0.205
+[Epoch 03 / Iter: 1266]: EVAL. loss: 0.277
+[Epoch 03 / Iter: 1266]: EVAL. acc.: 0.899
+ETA: 0:37:24
+[Epoch 04 / Iter: 1666]: TRAIN loss: 0.178
+[Epoch 04 / Iter: 1688]: EVAL. loss: 0.242
+[Epoch 04 / Iter: 1688]: EVAL. acc.: 0.908
+ETA: 0:36:17
+Saving at checkpoint...
+[Epoch 05 / Iter: 2088]: TRAIN loss: 0.146
+[Epoch 05 / Iter: 2110]: EVAL. loss: 0.224
+[Epoch 05 / Iter: 2110]: EVAL. acc.: 0.920
+ETA: 0:35:14
+Saving at checkpoint...
+[Epoch 06 / Iter: 2510]: TRAIN loss: 0.124
+[Epoch 06 / Iter: 2532]: EVAL. loss: 0.213
+[Epoch 06 / Iter: 2532]: EVAL. acc.: 0.928
+ETA: 0:34:12
+Saving at checkpoint...
+[Epoch 07 / Iter: 2932]: TRAIN loss: 0.096
+[Epoch 07 / Iter: 2954]: EVAL. loss: 0.233
+[Epoch 07 / Iter: 2954]: EVAL. acc.: 0.924
+ETA: 0:33:10
+[Epoch 08 / Iter: 3354]: TRAIN loss: 0.073
+[Epoch 08 / Iter: 3376]: EVAL. loss: 0.243
+[Epoch 08 / Iter: 3376]: EVAL. acc.: 0.918
+ETA: 0:32:09
+[Epoch 09 / Iter: 3776]: TRAIN loss: 0.053
+[Epoch 09 / Iter: 3798]: EVAL. loss: 0.290
+[Epoch 09 / Iter: 3798]: EVAL. acc.: 0.917
+ETA: 0:31:08
+[Epoch 10 / Iter: 4198]: TRAIN loss: 0.037
+[Epoch 10 / Iter: 4220]: EVAL. loss: 0.295
+[Epoch 10 / Iter: 4220]: EVAL. acc.: 0.926
+ETA: 0:30:07
+[Epoch 11 / Iter: 4620]: TRAIN loss: 0.027
+[Epoch 11 / Iter: 4642]: EVAL. loss: 0.284
+[Epoch 11 / Iter: 4642]: EVAL. acc.: 0.930
+ETA: 0:29:06
+Saving at checkpoint...
+[Epoch 12 / Iter: 5042]: TRAIN loss: 0.021
+[Epoch 12 / Iter: 5064]: EVAL. loss: 0.289
+[Epoch 12 / Iter: 5064]: EVAL. acc.: 0.931
+ETA: 0:28:05
+Saving at checkpoint...
+[Epoch 13 / Iter: 5464]: TRAIN loss: 0.015
+[Epoch 13 / Iter: 5486]: EVAL. loss: 0.377
+[Epoch 13 / Iter: 5486]: EVAL. acc.: 0.921
+ETA: 0:27:05
+[Epoch 14 / Iter: 5886]: TRAIN loss: 0.012
+[Epoch 14 / Iter: 5908]: EVAL. loss: 0.330
+[Epoch 14 / Iter: 5908]: EVAL. acc.: 0.930
+ETA: 0:26:04
+[Epoch 15 / Iter: 6308]: TRAIN loss: 0.010
+[Epoch 15 / Iter: 6330]: EVAL. loss: 0.339
+[Epoch 15 / Iter: 6330]: EVAL. acc.: 0.927
+ETA: 0:25:04
+[Epoch 16 / Iter: 6730]: TRAIN loss: 0.009
+[Epoch 16 / Iter: 6752]: EVAL. loss: 0.371
+[Epoch 16 / Iter: 6752]: EVAL. acc.: 0.927
+ETA: 0:24:03
+[Epoch 17 / Iter: 7152]: TRAIN loss: 0.008
+[Epoch 17 / Iter: 7174]: EVAL. loss: 0.336
+[Epoch 17 / Iter: 7174]: EVAL. acc.: 0.929
+ETA: 0:23:03
+[Epoch 18 / Iter: 7574]: TRAIN loss: 0.011
+[Epoch 18 / Iter: 7596]: EVAL. loss: 0.337
+[Epoch 18 / Iter: 7596]: EVAL. acc.: 0.935
+ETA: 0:22:03
+Saving at checkpoint...
+[Epoch 19 / Iter: 7996]: TRAIN loss: 0.002
+[Epoch 19 / Iter: 8018]: EVAL. loss: 0.355
+[Epoch 19 / Iter: 8018]: EVAL. acc.: 0.933
+ETA: 0:21:03
+[Epoch 20 / Iter: 8418]: TRAIN loss: 0.001
+[Epoch 20 / Iter: 8440]: EVAL. loss: 0.347
+[Epoch 20 / Iter: 8440]: EVAL. acc.: 0.935
+ETA: 0:20:02
+[Epoch 21 / Iter: 8840]: TRAIN loss: 0.000
+[Epoch 21 / Iter: 8862]: EVAL. loss: 0.356
+[Epoch 21 / Iter: 8862]: EVAL. acc.: 0.937
+ETA: 0:19:02
+Saving at checkpoint...
+[Epoch 22 / Iter: 9262]: TRAIN loss: 0.000
+[Epoch 22 / Iter: 9284]: EVAL. loss: 0.352
+[Epoch 22 / Iter: 9284]: EVAL. acc.: 0.938
+ETA: 0:18:02
+Saving at checkpoint...
+[Epoch 23 / Iter: 9684]: TRAIN loss: 0.000
+[Epoch 23 / Iter: 9706]: EVAL. loss: 0.359
+[Epoch 23 / Iter: 9706]: EVAL. acc.: 0.938
+ETA: 0:17:02
+[Epoch 24 / Iter: 10106]: TRAIN loss: 0.000
+[Epoch 24 / Iter: 10128]: EVAL. loss: 0.359
+[Epoch 24 / Iter: 10128]: EVAL. acc.: 0.938
+ETA: 0:16:02
+[Epoch 25 / Iter: 10528]: TRAIN loss: 0.000
+[Epoch 25 / Iter: 10550]: EVAL. loss: 0.364
+[Epoch 25 / Iter: 10550]: EVAL. acc.: 0.939
+ETA: 0:15:02
+Saving at checkpoint...
+[Epoch 26 / Iter: 10950]: TRAIN loss: 0.000
+[Epoch 26 / Iter: 10972]: EVAL. loss: 0.365
+[Epoch 26 / Iter: 10972]: EVAL. acc.: 0.938
+ETA: 0:14:02
+[Epoch 27 / Iter: 11372]: TRAIN loss: 0.000
+[Epoch 27 / Iter: 11394]: EVAL. loss: 0.368
+[Epoch 27 / Iter: 11394]: EVAL. acc.: 0.939
+ETA: 0:13:01
+[Epoch 28 / Iter: 11794]: TRAIN loss: 0.000
+[Epoch 28 / Iter: 11816]: EVAL. loss: 0.369
+[Epoch 28 / Iter: 11816]: EVAL. acc.: 0.938
+ETA: 0:12:01
+[Epoch 29 / Iter: 12216]: TRAIN loss: 0.000
+[Epoch 29 / Iter: 12238]: EVAL. loss: 0.372
+[Epoch 29 / Iter: 12238]: EVAL. acc.: 0.938
+ETA: 0:11:01
+[Epoch 30 / Iter: 12638]: TRAIN loss: 0.000
+[Epoch 30 / Iter: 12660]: EVAL. loss: 0.376
+[Epoch 30 / Iter: 12660]: EVAL. acc.: 0.939
+ETA: 0:10:01
+[Epoch 31 / Iter: 13060]: TRAIN loss: 0.000
+[Epoch 31 / Iter: 13082]: EVAL. loss: 0.380
+[Epoch 31 / Iter: 13082]: EVAL. acc.: 0.938
+ETA: 0:09:01
+[Epoch 32 / Iter: 13482]: TRAIN loss: 0.000
+[Epoch 32 / Iter: 13504]: EVAL. loss: 0.378
+[Epoch 32 / Iter: 13504]: EVAL. acc.: 0.937
+ETA: 0:08:01
+[Epoch 33 / Iter: 13904]: TRAIN loss: 0.000
+[Epoch 33 / Iter: 13926]: EVAL. loss: 0.380
+[Epoch 33 / Iter: 13926]: EVAL. acc.: 0.938
+ETA: 0:07:00
+[Epoch 34 / Iter: 14326]: TRAIN loss: 0.000
+[Epoch 34 / Iter: 14348]: EVAL. loss: 0.402
+[Epoch 34 / Iter: 14348]: EVAL. acc.: 0.933
+ETA: 0:06:00
+[Epoch 35 / Iter: 14748]: TRAIN loss: 0.013
+[Epoch 35 / Iter: 14770]: EVAL. loss: 0.360
+[Epoch 35 / Iter: 14770]: EVAL. acc.: 0.933
+ETA: 0:05:00
+[Epoch 36 / Iter: 15170]: TRAIN loss: 0.001
+[Epoch 36 / Iter: 15192]: EVAL. loss: 0.354
+[Epoch 36 / Iter: 15192]: EVAL. acc.: 0.936
+ETA: 0:04:00
+[Epoch 37 / Iter: 15592]: TRAIN loss: 0.000
+[Epoch 37 / Iter: 15614]: EVAL. loss: 0.357
+[Epoch 37 / Iter: 15614]: EVAL. acc.: 0.936
+ETA: 0:03:00
+[Epoch 38 / Iter: 16014]: TRAIN loss: 0.000
+[Epoch 38 / Iter: 16036]: EVAL. loss: 0.358
+[Epoch 38 / Iter: 16036]: EVAL. acc.: 0.937
+ETA: 0:02:00
+[Epoch 39 / Iter: 16436]: TRAIN loss: 0.000
+[Epoch 39 / Iter: 16458]: EVAL. loss: 0.366
+[Epoch 39 / Iter: 16458]: EVAL. acc.: 0.937
+ETA: 0:01:00
+[Epoch 40 / Iter: 16858]: TRAIN loss: 0.000
+[Epoch 40 / Iter: 16880]: EVAL. loss: 0.365
+[Epoch 40 / Iter: 16880]: EVAL. acc.: 0.938
+ETA: 0:00:00
